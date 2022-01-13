@@ -12,17 +12,17 @@ def selection_sort(nums: list[float]) -> list[float]:
     """
 
     for pivot in range(0, len(nums) - 1):
-        min = pivot
+        smallest = pivot
 
-        # Find min value, then swap it with the pivot
+        # Find smallest value, then swap it with the pivot
         for target in range(pivot + 1, len(nums)):
-            if nums[target] < nums[min]:
-                min = target
+            if nums[target] < nums[smallest]:
+                smallest = target
 
-        nums[pivot], nums[min] = nums[min], nums[pivot]
+        nums[pivot], nums[smallest] = nums[smallest], nums[pivot]
 
     return nums
 
 
 algorithm = selection_sort
-id = "simple"
+name = "simple"
