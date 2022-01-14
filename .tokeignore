@@ -1,0 +1,6 @@
+
+# Ignore these files for badge line count
+
+LICENSE
+requirements.txt
+*.md
