@@ -22,8 +22,14 @@
 
 <hr>
 
+
 <p>This repository is dedicated to the study of algorithms, data structures, and Python!</p>
+
+
+<h2>Run & Test</h2>
+
+<p>To run tests<pre><code>pytest</code></pre></p>
 
 <h2>Similar Resources</h2>
 
-You can find the JavaScript version of this reposotiry <a href="https://github.com/JCPedroza/algorithms-and-data-structures-js">here</a>.
+<p>You can find the JavaScript version of this reposotiry <a href="https://github.com/JCPedroza/algorithms-and-data-structures-js">here</a>.<p>
