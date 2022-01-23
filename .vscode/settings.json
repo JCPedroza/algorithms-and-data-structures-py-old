@@ -1,0 +1,9 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+    "files.associations": {
+        "*.html": "jinja-html",
+    }
+}
